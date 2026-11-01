@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1">
+  <name>uLoader PIN Unlocker</name>
+  <coder>levi-unlock</coder>
+  <version>1.0.0</version>
+  <release_date>20261101000000</release_date>
+  <short_description>Removes uLoader's parental control PIN</short_description>
+  <long_description>Removes the 4-digit parental control PIN from uLoader. It checks the FAT configuration on SD/USB and the configuration stored in a WBFS drive's __CFG_ disc. FAT configurations are backed up as .bak files before they are changed. Only use this on your own console or with the owner's permission.</long_description>
+</app>
