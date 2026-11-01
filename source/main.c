@@ -430,7 +430,6 @@ int main(int argc, char **argv)
 	printf("uLoader Parental Control Unlocker\n");
 	printf("----\n\n");
 	printf("Press A to unlock.\n");
-	printf("Press HOME or B to exit without changing anything.\n");
 	fflush(stdout);
 
 	if (!wait_confirm())
@@ -451,7 +450,7 @@ int main(int argc, char **argv)
 	unmount_usb_fat();
 	patch_wbfs(&found, &removed, &errors);
 
-	printf("\n--n");
+	printf("\n");
 	if (removed)
 		printf("Done. %d config(s) unlocked.\n", removed);
 	else if (found)
@@ -465,7 +464,7 @@ int main(int argc, char **argv)
 	if (removed)
 		printf("\nStart uLoader again; it will no longer ask for the PIN.\n");
 
-	printf("\nPress any button to exit.\n");
+	printf("\nPress HOME to exit.\n");
 	fflush(stdout);
 	wait_any_button();
 
