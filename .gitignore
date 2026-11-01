@@ -4,3 +4,4 @@ bin/
 *.dol
 *.elf
 /dist/apps/levi-unlock
+*.zip
