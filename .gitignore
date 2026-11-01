@@ -3,3 +3,4 @@ build/
 bin/
 *.dol
 *.elf
+/dist/apps/levi-unlock
